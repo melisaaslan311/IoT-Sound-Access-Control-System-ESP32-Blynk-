@@ -1,4 +1,4 @@
-## 🔊 Secure Access and Smart Sound Monitoring System (Bi-Directional IoT Application)
+## 🔊 Secure Access and Smart Sound Monitoring System (Bi-Directional IoT Application) with @OmerAysalX1
 
 This project develops an IoT system using an **ESP32** board that validates physical access via **RFID** and dynamically controls a **Servo Motor** and an **RGB LED** based on the ambient sound level. All sensor data and device statuses are monitored and displayed in real-time on the **Blynk** cloud platform.
 
