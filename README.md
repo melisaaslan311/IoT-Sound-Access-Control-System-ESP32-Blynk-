@@ -10,7 +10,7 @@ This project develops an IoT system using an **ESP32** board that validates phys
 * **Smart Environment Monitoring:** Continuously measures the ambient sound level.
 * **Dynamic Control:** Changes the Servo Motor angle and RGB LED color based on the measured sound level.
 * **Cloud Integration (Blynk):** Sends RFID UID, sound sensor data, and device status to the Blynk dashboard in real-time.
-* **Bi-Directional Communication:** Sensor data is sent to the cloud (Uplink), and the circuit is controlled (potentially, future Downlink control can be added).
+* **Bi-Directional Communication:** Sensor data is sent to the cloud, and the circuit is controlled.
 
 ### 🎯 Application Purpose (Scenario)
 
@@ -49,9 +49,12 @@ The following Arduino libraries are required to compile and run this project:
 
 ---
 
-### 🔌 Circuit Diagram
+### 🔌 Circuit Diagram(Fritzing)
+ 
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/7810f2ab-cfa7-41f9-9bf8-00bba85fd834" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/2dc8213d-ac60-4cce-8a14-0797e9faac49" />
 
-The circuit diagram was designed using Fritzing. 
+---
 
 **Key Connections:**
 
@@ -59,6 +62,8 @@ The circuit diagram was designed using Fritzing.
 * **Sound Sensor:** Analog output (A0) connected to an ADC pin on the ESP32.
 * **Servo Motor:** Connected to a PWM-enabled digital pin.
 * **Common Cathode RGB LED:** R, G, B pins connected to ESP32 PWM pins via current-limiting resistors.
+
+---
 
 ### 🚀 Usage and Setup
 
